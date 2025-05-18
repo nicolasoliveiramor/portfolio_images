@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "/images/(.*)",
+            "dest": "public/images/$1"
+        }
+    ]
+}
