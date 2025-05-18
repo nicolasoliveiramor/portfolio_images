@@ -1,4 +1,9 @@
 {
     "version": 2,
-    "public": true
+    "routes": [
+        {
+        "src": "/images/(.*)",
+        "dest": "/public/images/$1"
+        }
+    ]
 }
